@@ -1,4 +1,51 @@
 
+.navbar-nav > li{
+  font-family: 'Syncopate';
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px; 
+
+}
+
+.row {
+  font-family: 'Syncopate';
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 151px; 
+  display: flex;
+
+}
+
+.row > { 
+  font-family: 'Syncopate';
+}
+/* 
+.navbar-nav > li:hover {
+  background-color: rgba(254, 4, 4, 0.5);
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+   
+ 
+}
+
+ */
+
+
+.btn:hover {
+  background-color: #d21d1d;
+}
+ 
+
+.btn-1 {
+  margin-top: 103px; 
+}
+.nav-link > i {
+  font-size: 22px;
+
+}
+
+
+
 /* 
 
 body {
