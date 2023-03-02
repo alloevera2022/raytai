@@ -32,6 +32,10 @@
 
 }
 
+header > .container {
+  margin-bottom: -100px;
+}
+
 .btn_ty {
   background-color: black;
 }
@@ -42,7 +46,70 @@
   color: #D8D8D8; 
 }
 
+.section1 {
+  background-image:  url(img/img\ 2\,2\ 1.svg), url(img/img\ 2\,1\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: 235px 160px, -165px 130px;
 
+ 
+}
+
+
+.section1_info {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px; 
+  font-weight: 400;
+  color: #D8D8D8; 
+  padding-top: 230px;
+  width: 435px;
+  text-align: center;
+}
+
+.section1_slogan {
+  color: #F0281D; 
+  font-size: 30px;
+  padding-top: 110px;
+  width: 412px;
+  font-size: 30px; 
+
+}
+
+.section2_title {
+  color: #D8D8D8;
+  font-size: 50px;
+  margin-top: 50px;
+  padding-left: 30px;
+  
+}
+
+.section2_subtitle1, .section2_subtitle2 {
+  color: #D8D8D8;
+
+}
+
+.section2_info1, .section2_info2 {
+  font-family: 'Work Sans', sans-serif;
+  color: #D8D8D8; 
+  font-size: 18px;
+}
+
+.section2 {
+  background-image:  url(img/img\ 3\,1\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: 135px 30px;
+  
+}
+
+.section2_bg {
+  margin-bottom: -640px;
+}
+
+
+
+
+
+
+/* MEDIA*/
 
 @media (max-width: 1400px) {
   .header_title {
@@ -65,17 +132,42 @@
     padding-left: 0;
   
   }
+
+  .section1_slogan {
+    padding-top: 10px;
+  }
   
 }
 
 
   
 @media (max-width: 992px) {
+
+  header > .container {
+    margin-bottom: 0;
+  }
+
   .header_title {
     margin-top: 15px;
     font-size: 30px;
 
   }
+
+  
+
+.section1_info { 
+    font-size: 14px; 
+    padding-top: 110px;
+    width: 350px;
+    text-align: left;
+  }
+
+.section1_slogan {
+  padding-top: 10px;
+  font-size: 22px;
+  width: 350px; 
+}
+
 
 
   
@@ -83,11 +175,77 @@
 
 @media (max-width: 767px) {
   
+  header > .container {
+    margin-bottom: 0;
+  }
+
+  
   .header_title {
    
     margin-top: 10px;
 
   }
+
+  .section1_info { 
+    font-size: 18px; 
+    padding-top: 0;
+    padding-left: 32px;
+    width: 500px;
+    text-align: center;
+  
+  }
+
+  .section1_slogan {
+    padding-top: 0;
+    padding-right: 10px;
+    font-size: 22px;
+    width: 500px;
+    text-align: right; 
+  }
+
+
+  
+}
+
+
+@media (max-width: 420px) {
+
+  header > .container {
+    margin-bottom: -50px;
+  }
+
+  .header_title {
+
+    text-align: center;
+  
+  }
+
+  .header_subtitle {
+    text-align: center; 
+  }
+
+  .btn_ty {
+    margin-left: 40px;
+  }
+  
+  .section1_info { 
+    font-size: 14px; 
+    padding-top: 5px;
+    padding-left: 32px;
+    width: 350px;
+    text-align: center;
+  
+  }
+
+  .section1_slogan {
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 22px;
+    width: 380px;
+    text-align: right; 
+  }
+
+
 
 
   
