@@ -38,6 +38,7 @@ header > .container {
 
 .btn_ty {
   background-color: black;
+  border-style: none;
 }
 
 .header_subtitle {
@@ -117,9 +118,13 @@ header > .container {
 
 }
 
+.section4 {
+  margin-top: -150px;
+}
+
 .section4_title {
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 40px;
   color: #D8D8D8; 
   margin-top: 200px; 
   margin-bottom: 20px;
@@ -129,13 +134,34 @@ header > .container {
 
 .section4_subtitle {
   font-family: 'Work Sans', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #D8D8D8;
-  width: 587px; 
   padding-right: 100px;
 }
 
 
+.img-section4 {
+  margin: 205px 0 -150px 0;
+}
+
+.section4_info {
+  padding-top: 10px;
+  padding-right: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  color: #D8D8D8;
+}
+
+.s4_red-text {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: #F0281D; 
+}
+
+.btn_s4 {
+  background-color: black;
+  border-style: none;
+}
 
 
 /* MEDIA*/
@@ -147,6 +173,14 @@ header > .container {
 
   }
 
+  .section4_title {
+;
+    font-size: 26px;
+    border-bottom: 1px solid #A10B0B;
+  }
+
+
+
 
   
 }
@@ -157,8 +191,6 @@ header > .container {
     margin-top: 100px;
 
   }
-
-
 
   .nav-item {
     padding-left: 0;
@@ -174,14 +206,24 @@ header > .container {
     margin: 10px;
     margin-top: 20px;
     text-align: center;
-    border-bottom: 1px solid #A10B0B;
-    
-  
+    border-bottom: 1px solid #A10B0B;  
   }
 
   .section2_info1, .section2_info2 {
     text-align: center;
   }
+
+  .section4_title {
+    margin-top: 130px;  
+      }
+
+ .img-section4 {
+    margin-top: 130px;
+      }
+      
+ .btn_s4 {
+  margin-left: 325px;
+ }
 }
 
 
@@ -237,6 +279,10 @@ header > .container {
   margin-bottom: -485px;
   margin-left: -50px;
 }
+
+.btn_s4 {
+  margin-left: 225px;
+ }
   
 }
 
@@ -278,9 +324,10 @@ header > .container {
   
     
   }
-  
 
-
+  .btn_s4 {
+    margin-left: 175px;
+   }
   
 }
 
@@ -347,6 +394,11 @@ header > .container {
 
   
 }
+
+.btn_s4 {
+  margin-top: 15px;
+  margin-left: 75px;
+ }
 
 
   
