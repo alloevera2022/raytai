@@ -98,6 +98,10 @@
 
 }
 
+.modal-dialog {
+  background-image: url(img/Rectangle\ 3112.png);
+}
+
 .text-modal-info {
   font-family: 'Work Sans', sans-serif;
   font-size: 18px;
