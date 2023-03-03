@@ -23,15 +23,17 @@
     <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container navbarcss">
             <a href="" class="navbar-brand"> <img src="img/logo.svg"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
             </button>
     
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav ms-2 me-4">
     
                     <li class="nav-item text-uppercase">
-                        <a href="" class="nav-link">
+                        <a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             START FIGHT 
                         </a>
                     </li>
@@ -72,6 +74,34 @@
      </nav>
 
 
+     <!---Modal-->
+
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">                    
+                        <h5 class="modal-tatle" id="exampleModalLabel">Wait...</h5>                 
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                    <img class="modal-img"src="img/img-modal.png" alt="">
+                    </div>                  
+                </div>
+                <div class="modal-footer">
+                    <h5 class="modal-footer-title">The fights will start in April</h5>
+                    <p class="text-modal-info">Stay tuned for updates on twitter or discord</p>
+                    <div class="botton-modal">
+                    <button> <a href="#"> <img src="img/button test yourself (1).svg" alt=""></a> </button>
+                    <button> <a href="#"> <img src="img/button test yourself (2).svg" alt=""></a> </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </div>
+
+     <!---Modal-->
     <header>
         <div class="container"> 
             <div class="row"> 
